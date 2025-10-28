@@ -13,13 +13,17 @@ Language: Dart
 State Management: GetX
 
 Project Structure
+
 lib/
 
  ├── controller/
  
  │    └── favourites.dart
+ 
  │    ├── nav_controller.dart
- │    ├── scheme_controller.dart      
+ 
+ │    ├── scheme_controller.dart
+ 
  ├── model/
  │    └── nav_entry.dart
       └── scheme.dart
