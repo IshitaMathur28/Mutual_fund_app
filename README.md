@@ -14,7 +14,9 @@ State Management: GetX
 
 Project Structure
 lib/
+
  ├── controller/
+ 
  │    └── favourites.dart
  │    ├── nav_controller.dart
  │    ├── scheme_controller.dart      
