@@ -1,16 +1,33 @@
-# flutter_application_1
+# Mutual Fund Mobile App
 
-A new Flutter project.
+Features
+ Fund Performance Visualization — Interactive graphs for 1Y, 3Y, and 5Y returns
+ Favorites Management — Add or remove schemes from your favorite list using GetX
+ Fund Search & Details — View detailed information about each scheme
+ Modern UI — Clean and responsive interface using Flutter Material Design
+ State Management — Built with GetX for efficient and reactive state control
 
-## Getting Started
+ Tech Stack
+Framework: Flutter
+Language: Dart
+State Management: GetX
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Project Structure
+lib/
+ ├── controller/
+ │    └── favourites.dart
+ │    ├── nav_controller.dart
+ │    ├── scheme_controller.dart      
+ ├── model/
+ │    └── nav_entry.dart
+      └── scheme.dart
+ ├── screens/
+ │    ├── home_screen.dart
+ │    ├── detail_screen.dart
+ │    └── favorites_screen.dart
+ ├── widgets/
+ │    └── fund_tile.dart
+ │    └── nav_chart.dart
+ ├── services/
+ │    ├── service.dart
+ └── main.dart
