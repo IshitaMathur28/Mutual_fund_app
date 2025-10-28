@@ -12,28 +12,3 @@ Framework: Flutter
 Language: Dart
 State Management: GetX
 
-Project Structure
-
-lib/
-
- ├── controller/
- 
- │    └── favourites.dart
- 
- │    ├── nav_controller.dart
- 
- │    ├── scheme_controller.dart
- 
- ├── model/
- │    └── nav_entry.dart
-      └── scheme.dart
- ├── screens/
- │    ├── home_screen.dart
- │    ├── detail_screen.dart
- │    └── favorites_screen.dart
- ├── widgets/
- │    └── fund_tile.dart
- │    └── nav_chart.dart
- ├── services/
- │    ├── service.dart
- └── main.dart
